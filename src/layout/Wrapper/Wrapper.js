@@ -36,7 +36,7 @@ const Wrapper = () => {
 	return (
 		<>
 			<WrapperContainer>
-				{location.pathname === '/Auto_hub//auth-pages/get-started' ? '' : <HeaderRoutes />}
+				{location.pathname === '/Auto_hub/auth-pages/get-started' ? '' : <HeaderRoutes />}
 
 				<Content />
 				<FooterRoutes />

@@ -98,7 +98,7 @@ const Categories = () => {
 											</p>
 											<br />
 											<a
-												href='/Auto_hub//package'
+												href='/Auto_hub/package'
 												className='btn btn-primary w-100'
 												style={{ fontSize: '16px', fontWeight: 'bold' }}
 												onClick={() => handlePackage(2)}>

@@ -1,5 +1,5 @@
 // Server
-const subDirForNavigation = '/Auto_hub//';
+const subDirForNavigation = '/Auto_hub/';
 // mine local
 // const baseURL = 'http://192.168.10.71/RehbarSocietyBackend/api';
 // Mine
