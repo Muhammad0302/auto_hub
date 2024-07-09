@@ -128,22 +128,21 @@ const ViewPurchase = ({ purchaseDetails }) => {
 									</td>
 									<td>{item?.received_quantity}</td>
 									<td>
-										{item.racks.map((rack, innerIndex) => (
+										{item?.racks?.map((rack, innerIndex) => (
 											<span key={rack.id}>
 												{rack.rack_number}
 												{innerIndex < item.racks.length - 1 && ','}{' '}
-											
 											</span>
 										))}
 									</td>
-									  <td>
+									<td>
 										{item.shelves.map((shelf, innerIndex) => (
 											<span key={shelf.id}>
 												{shelf.shelf_number}
 												{innerIndex < item.shelves.length - 1 && ','}{' '}
 											</span>
-										))} 
-									</td> 
+										))}
+									</td>
 									<td>
 										{item?.purchase_price?.toLocaleString(undefined, {
 											maximumFractionDigits: 2,
