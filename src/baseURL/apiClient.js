@@ -10,12 +10,12 @@ import { _titleCustom } from './messages';
 // import { demoPages } from '../menu';
 
 const apiClient = axios.create({
-	baseURL: 'http://thesfb.live/Autohub_Backend/api',
+	// baseURL: 'http://thesfb.live/Autohub_Backend/api',
 
 	// baseURL: 'http://thesfb.live/Ahmed_autos_backend/api',
 	// baseURL: 'http://192.168.18.57/Aoun_Autos_BackEnd/api', /// Amir
 	//  baseURL: 'http://192.168.18.15/Swatti_Auto_BackEnd/api', /// Faizan
-	// baseURL: 'http://192.168.18.143/Swatti_Auto_BackEnd/api', /// Moheed
+	baseURL: 'http://192.168.18.143/auto_hub_backend/api', /// Moheed
 	// baseURL: 'http://192.168.18.143/Swatti_Auto_BackEnd/api', /// production
 	// baseURL: 'http://thesfb.live/Swatti_Auto_BackEnd/api',
 

@@ -195,7 +195,7 @@ const DateRangeTour = () => {
 				<div className='row'>
 					<div className='col'>
 						<p className='lead'>Compatibility</p>
-						<p>The designs of the added packages are compatible with "Swatti Autos".</p>
+						<p>The designs of the added packages are compatible with " Autos".</p>
 						<p>
 							After clicking the <b>date button</b> above, you can test its appearance
 							with the buttons below.
