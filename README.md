@@ -2,6 +2,8 @@
 
 #### Required files (Checked ones should definitely be in your project)
 
+// "homepage": "http://thesfb.live/auto_hub/",
+
 -   [ ] .storybook
 -   [x] public[^1]
 -   [x] src[^1]
